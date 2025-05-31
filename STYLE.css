@@ -1,0 +1,286 @@
+body{
+    background-color: white; /* Elle permet a mettre ma page html en whitesmoke*/
+    padding: 0;/* Elle permet de creer de l'espace a l'interieur d'un element html, entre le contenu (texte, image...) et les bords de cet element*/
+    margin: 0;/* Elle permet de creer de l'espace autour d'un element, c'est-a-dire entre cet element et les autres elements qui l'entrourrent*/
+    font-family: system-ui, Helvetica , Arial, sans-serif;
+
+}
+/*___________________________________________________________________________________________________________________________________________________________________________________________________*/
+/* en-tête*/
+ /* header{ 
+    position: fixed;       
+    left: 0; 
+    right: 0; 
+}  */
+.navbar{
+    display: flex;/* Display est une element essentielle pour controles la maniere dont un element htlm est affiche sur la page*/
+    justify-content: space-between;
+    align-items: center;/*Elle permet de controler l'alignement vertical des elements(conteneur flex...)*/
+    padding: 15px;
+    background-color: black;
+    color: white;
+    margin-bottom: 4;/*Elle sert a ajouter de l'espace sous un element(donc vers le bas).*/
+}
+.logo1 img{ /*Pour diminuer la tailler du logo de l'en-tete*/
+    width: 100%;
+    width: 200px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    font-size: larger;   
+}
+a:hover{
+    font-size: x-large;
+}
+ul{
+    list-style: none;
+    display: flex;
+    gap: 30px;/* Elle sert a ajouter de l'espace entre l'elements enfants d'un conteneur flex..*/
+}
+/*____________________________________________________________________________________________________________________________________________________________________________________________________________*/
+
+/*Accueil*/
+/*section image + video*/
+
+.media_section{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 30px;
+    background-color: white;
+    flex-wrap: wrap;
+}
+.media_image{
+    max-width: 50%;
+    height: auto;
+}
+.media_video{
+    max-width: 50%;
+    height: auto;
+}
+/*______________________________________________________________________________________________________________________________________________________________________________________________________________________*/
+
+/*presentation text*/
+.presentation{
+    background-color: white;
+    text-align: center;
+    padding: 40px 20px;
+    max-width: 900px;
+    margin: 30px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgb(0,0,0,0,1);
+}
+.presentation .text{
+    display: block;
+    font-size: 1.8em;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #383838dd;
+}
+.presentation p{
+    font-size: 1.1em;
+    color: #383838dd;
+    line-height: 1.7;
+}
+/*______________________________________________________________________________________________________________________________________________________________________________________________________________________*/
+
+/*Produits*/
+.produits{
+    padding: 40px 20px;
+    background-color: black;
+    text-align: center;
+
+}
+.titre_accueil{
+    font-size: 28px;
+    margin-bottom: 30px;
+    background-color: white;
+}
+.contenu_produits{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+.produit_Adidas{
+    width: 48%;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgb(0,0,0,0,1);
+    margin: 30px; 
+}
+.produit_Adidas:hover{
+    padding: 25px;
+    transition: 0.4s;
+}
+
+.produit_Nike{
+    width: 48%;
+    background-color:  white;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgb(0,0,0,0,1);
+    margin: 30px;
+}
+.produit_Nike:hover{
+    padding: 25px;
+    transition: 0.4s;
+}
+
+.produit_puma{
+    width: 48%;
+    background-color:  white;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgb(0,0,0,0,1);
+    margin: 30px;
+}
+.produit_puma:hover{
+    padding: 25px;
+    transition: 0.4s;
+}
+.img_produits{
+    width: 99%;
+    height: auto;
+    border-radius: 8px;
+}
+.prix{
+    font-weight: bold;
+    display: block;
+    margin-top: 10px 0;
+    color: #383838dd;
+}
+.cart_icon{
+    margin-top: 10px;
+    font-size: 1.4em;
+    color: black;
+    cursor: pointer;
+    transform: color 0.3s;
+}
+.cart_icon{
+    font-size: 1.4em;
+    color: #383838dd;
+    cursor: pointer;
+}
+/*______________________________________________________________________________________________________________________________________________________________________________________________________________________*/
+/* Reseaux */
+footer{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    flex-direction: row;
+}
+.icone6 a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.logo2{
+    padding: 43;
+}
+/*________________________________________________________________________________________________________________________________________________________________*/
+/* Page Apropos*/
+.apropos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color:white;
+    padding: 40px;
+    gap: 30px;
+}
+.Image_apropos img{
+    width: 600px;
+    padding: 29px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow:0 4px 8px rgb(0,0,0,0,0.2);  
+}
+.presentation_text{
+    max-width: 600px;
+    color: #333;
+    font-family: system-ui, Helvetica , Arial, sans-serif;
+    line-height: 1.6;
+}
+.presentation_text h1{
+    font-size: 22px;
+    color:  #383838dd;
+    margin-bottom: 10px;
+}
+.presentation_text h2{
+    font-size: 22px;
+    color: #444;
+    margin-bottom: 10px;
+}
+.presentation_text h3{
+    font-size: 22px;
+    color:  #383838dd;
+    margin-bottom: 10px;
+}
+.presentation_text strong{
+    color:  #383838dd;
+    font-weight: bold;
+}
+
+
+/*_____________________________________________________________________________________________________________________________________________________________________*/
+/* Contact */
+.titre_contact{
+    margin: 30px;
+    color: #444;
+}
+.Contact p{
+    font-size: 1.1em;
+    color: #383838dd;
+    line-height: 1.7;
+}
+.container_contact{
+    max-width: 500px;
+    margin: 55px;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(0,0,0,0,0.1);
+}
+#contactForm input,
+#contactForm textarea{
+    width: 100%;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+#contactForm textarea{
+    height: 100px;
+    resize: vertical;
+}
+#contactForm button{
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: background-color 0.3s;
+}
+#contactForm .button_1{
+    background-color: black;
+    color: white;
+}
+#contactForm .button_1:hover{
+    background-color: #0056b3;
+}
+#contactForm .button_2{
+    background-color: black;
+    color: white;
+}
+#contactForm .button_2:hover{
+    background-color: #0056b3;
+}
+
+/* _________________________________________________________________________________________________________________________________________________________________________ */
+
