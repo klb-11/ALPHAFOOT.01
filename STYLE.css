@@ -46,19 +46,18 @@ ul{
 
 .media_section{
     display: flex;
-    justify-content: center;
-    gap: 20px;
-    padding: 30px;
+    gap: 0px;
+    padding: px;
     background-color: white;
-    flex-wrap: wrap;
+    
 }
 .media_image{
-    max-width: 50%;
-    height: auto;
+    width: 60%;
+    height: ;
 }
 .media_video{
-    max-width: 50%;
-    height: auto;
+    width: 50%;
+    height: ;
 }
 /*______________________________________________________________________________________________________________________________________________________________________________________________________________________*/
 
