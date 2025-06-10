@@ -7,11 +7,12 @@ body{
 }
 /*___________________________________________________________________________________________________________________________________________________________________________________________________*/
 /* en-tête*/
- /* header{ 
+ header{ 
     position: fixed;       
     left: 0; 
+    width: 100%;
     right: 0; 
-}  */
+}  
 .navbar{
     display: flex;/* Display est une element essentielle pour controles la maniere dont un element htlm est affiche sur la page*/
     justify-content: space-between;
@@ -19,6 +20,7 @@ body{
     padding: 15px;
     background-color: black;
     color: white;
+    width: 100%;
     margin-bottom: 4;/*Elle sert a ajouter de l'espace sous un element(donc vers le bas).*/
 }
 .logo1 img{ /*Pour diminuer la tailler du logo de l'en-tete*/
@@ -52,7 +54,7 @@ ul{
     
 }
 .media_image{
-    width: 60%;
+    width: 50%;
     height: ;
 }
 .media_video{
@@ -63,9 +65,9 @@ ul{
 
 /*presentation text*/
 .presentation{
-    background-color: white;
+    background-color: black;
     text-align: center;
-    padding: 40px 20px;
+    padding: 10px;
     max-width: 900px;
     margin: 30px auto;
     border-radius: 10px;
@@ -73,7 +75,8 @@ ul{
 }
 .presentation .text{
     display: block;
-    font-size: 1.8em;
+    padding: 10px;
+    font-size: 1.em;
     font-weight: bold;
     margin-bottom: 15px;
     color: #383838dd;
@@ -87,9 +90,10 @@ ul{
 
 /*Produits*/
 .produits{
-    padding: 40px 20px;
+    padding: 40px;
     background-color: black;
     text-align: center;
+    width: 100%;
 
 }
 .titre_accueil{
@@ -101,66 +105,70 @@ ul{
     display: flex;
     justify-content: space-between;
     margin-bottom: 40px;
+    width: 100%;                                    
 }
 .produit_Adidas{
-    width: 48%;
-    background-color: white;
+    width: 50%;
     border-radius: 10px;
     padding: 10px;
     box-shadow: 0 0 10px rgb(0,0,0,0,1);
     margin: 30px; 
 }
 .produit_Adidas:hover{
-    padding: 25px;
-    transition: 0.4s;
+    padding: 35px;
+    transition: 0.5s;
 }
-
 .produit_Nike{
-    width: 48%;
-    background-color:  white;
+    width: 50%;
     border-radius: 10px;
     padding: 10px;
     box-shadow: 0 0 10px rgb(0,0,0,0,1);
     margin: 30px;
 }
 .produit_Nike:hover{
-    padding: 25px;
-    transition: 0.4s;
+    padding: 35px;
+    transition: 0.5s;
 }
 
 .produit_puma{
-    width: 48%;
-    background-color:  white;
+    width: 50%;
     border-radius: 10px;
-    padding: 10px;
+    padding: 20px;
     box-shadow: 0 0 10px rgb(0,0,0,0,1);
     margin: 30px;
 }
 .produit_puma:hover{
-    padding: 25px;
-    transition: 0.4s;
+    padding: 35px;
+    transition: 0.5s;
 }
 .img_produits{
-    width: 99%;
+    width: 60%;
     height: auto;
-    border-radius: 8px;
+}
+.img_produits1{
+    width: 80%;
+    height: auto;
+}
+#title_product{
+    color: white;
+    width: ;
 }
 .prix{
     font-weight: bold;
     display: block;
     margin-top: 10px 0;
-    color: #383838dd;
+    color: white;
 }
 .cart_icon{
     margin-top: 10px;
     font-size: 1.4em;
-    color: black;
+    color: white;
     cursor: pointer;
     transform: color 0.3s;
 }
 .cart_icon{
     font-size: 1.4em;
-    color: #383838dd;
+    color: white;
     cursor: pointer;
 }
 /*______________________________________________________________________________________________________________________________________________________________________________________________________________________*/
@@ -171,6 +179,8 @@ footer{
     justify-content: space-between;
     align-items: center;
     padding: 20px;
+    margin: 15px;
+    width: 100%;
     flex-direction: row;
 }
 .icone6 a{
@@ -179,7 +189,8 @@ footer{
 }
 
 .logo2{
-    padding: 43;
+    padding: 15PX;
+    width: px;
 }
 /*________________________________________________________________________________________________________________________________________________________________*/
 /* Page Apropos*/
@@ -231,6 +242,11 @@ footer{
     margin: 30px;
     color: #444;
 }
+.presentation{
+    width: 100%;
+    height: auto;
+    margin: 
+}
 .Contact p{
     font-size: 1.1em;
     color: #383838dd;
@@ -243,6 +259,12 @@ footer{
     background-color: #f2f2f2;
     border-radius: 10px;
     box-shadow: 0 0 10px rgb(0,0,0,0,0.1);
+}
+.Contact{
+    width: 50%;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
 }
 #contactForm input,
 #contactForm textarea{
