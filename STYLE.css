@@ -211,27 +211,27 @@ footer{
 }
 .presentation_text{
     max-width: 600px;
-    color: #333;
+    color: white;
     font-family: system-ui, Helvetica , Arial, sans-serif;
     line-height: 1.6;
 }
 .presentation_text h1{
     font-size: 22px;
-    color:  #383838dd;
+    color: white;
     margin-bottom: 10px;
 }
 .presentation_text h2{
     font-size: 22px;
-    color: #444;
+    color: white;
     margin-bottom: 10px;
 }
 .presentation_text h3{
     font-size: 22px;
-    color:  #383838dd;
+    color:  white;
     margin-bottom: 10px;
 }
 .presentation_text strong{
-    color:  #383838dd;
+    color:  white;
     font-weight: bold;
 }
 
@@ -240,7 +240,7 @@ footer{
 /* Contact */
 .titre_contact{
     margin: 30px;
-    color: #444;
+    color: white;
 }
 .presentation{
     width: 100%;
@@ -249,7 +249,7 @@ footer{
 }
 .Contact p{
     font-size: 1.1em;
-    color: #383838dd;
+    color: white;
     line-height: 1.7;
 }
 .container_contact{
