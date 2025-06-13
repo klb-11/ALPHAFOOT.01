@@ -211,27 +211,27 @@ footer{
 }
 .presentation_text{
     max-width: 600px;
-    color: white;
+    color: black;
     font-family: system-ui, Helvetica , Arial, sans-serif;
     line-height: 1.6;
 }
 .presentation_text h1{
     font-size: 22px;
-    color: white;
+    color: black;
     margin-bottom: 10px;
 }
 .presentation_text h2{
     font-size: 22px;
-    color: white;
+    color: black;
     margin-bottom: 10px;
 }
 .presentation_text h3{
     font-size: 22px;
-    color:  white;
+    color: black;
     margin-bottom: 10px;
 }
 .presentation_text strong{
-    color:  white;
+    color:  black;
     font-weight: bold;
 }
 
