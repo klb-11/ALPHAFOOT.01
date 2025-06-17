@@ -48,20 +48,25 @@ ul{
 
 .media_section{
     display: flex;
-    width: 530px;
+    width: 100%;
     height: 400px;
+    max-width: 1112px;
     background-color: black;
  
 }
 .media_image img {
-    width: 265px;
-    height: 400px;
-
-    
+    width: 50%;
+    height: 100%;
+    gap: 23px;
+    object-fit: cover;
+    display: block;
 }
 .media_video video {
-    width: 265px;
-    height: 400px;
+    width: 50%;
+    height: 100%;
+    gap: 23px;
+    object-fit: cover;
+    display: block;
    
     
 }
