@@ -50,24 +50,19 @@ ul{
     display: flex;
     width: 530px;
     height: 400px;
-    background-color: black;
-    overflow: hidden;
+ 
 }
-.media_image img{
+.media_image img {
     width: 265px;
     height: 400px;
-    padding: 0;
-    margin: 0;
-    display: block;
-    object-fit: cover;
+
+    
 }
-.media_video video{
+.media_video video {
     width: 265px;
     height: 400px;
-    padding: 0;
-    margin: 0;
-    display: block;
-    object-fit: cover;
+   
+    
 }
 /*______________________________________________________________________________________________________________________________________________________________________________________________________________________*/
 
