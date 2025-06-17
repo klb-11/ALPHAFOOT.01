@@ -7,12 +7,12 @@ body{
 }
 /*___________________________________________________________________________________________________________________________________________________________________________________________________*/
 /* en-tête*/
- header{ 
+ /* header{ 
     position: fixed;       
     left: 0; 
     width: 100%;
     right: 0; 
-}  
+}   */
 .navbar{
     display: flex;/* Display est une element essentielle pour controles la maniere dont un element htlm est affiche sur la page*/
     justify-content: space-between;
@@ -48,18 +48,26 @@ ul{
 
 .media_section{
     display: flex;
-    gap: 0px;
-    padding: px;
-    background-color: white;
-    
+    width: 530px;
+    height: 400px;
+    background-color: black;
+    overflow: hidden;
 }
-.media_image{
-    width: 50%;
-    height: ;
+.media_image img{
+    width: 265px;
+    height: 400px;
+    padding: 0;
+    margin: 0;
+    display: block;
+    object-fit: cover;
 }
-.media_video{
-    width: 50%;
-    height: ;
+.media_video video{
+    width: 265px;
+    height: 400px;
+    padding: 0;
+    margin: 0;
+    display: block;
+    object-fit: cover;
 }
 /*______________________________________________________________________________________________________________________________________________________________________________________________________________________*/
 
