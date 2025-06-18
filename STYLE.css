@@ -55,19 +55,14 @@ ul{
  
 }
 .media_image img {
+    width: 556px;
+    height: 400px;
     width: 50%;
-    height: 100%;
-    gap: 23px;
-    object-fit: cover;
-    display: block;
 }
 .media_video video {
+    width: 556px;
+    height: 400px;
     width: 50%;
-    height: 100%;
-    gap: 23px;
-    object-fit: cover;
-    display: block;
-   
     
 }
 /*______________________________________________________________________________________________________________________________________________________________________________________________________________________*/
